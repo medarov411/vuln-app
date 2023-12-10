@@ -56,9 +56,11 @@ OS Command injection:
 SQLI:
 > форма авторизации в админ панель подвержена sql инъекциям. url - http://127.0.0.1:8089/login
 
->в базе данных есть два юзера - admin, wiener
+>в базе данных есть два юзера - admin:jasper, wiener:password
 
 >При успешной авторизации, происходит редирект на /admin-panel?user={username}
+>![image](https://github.com/medarov411/vuln-app/assets/60567375/6e520b0f-355b-4377-8839-0b1740a8bcf7)
+P.S не обращайте внимания, что там написано IDOR. Эта админ панель также будет использована в демонстрации IDOR уязвимости.
 
 >При не правильных данных: Login Failed
 >![image](https://github.com/medarov411/vuln-app/assets/60567375/486498d8-1a5b-4fa2-a2de-7922159825b4)
