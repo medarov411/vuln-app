@@ -51,6 +51,17 @@ OS Command injection:
 
 >![image](https://github.com/medarov411/vuln-app/assets/60567375/303665c2-83d6-41ba-8fd2-5706ad0efa01)
 
+<p>&nbsp;</p>
+
+SQLI:
+> форма авторизации в админ панель подвержена sql инъекциям. url - http://127.0.0.1:8089/login
+
+>в базе данных есть два юзера - admin, wiener
+
+>При успешной авторизации, происходит редирект на /admin-panel?user={username}
+
+>При не правильных данных: Login Failed
+>![image](https://github.com/medarov411/vuln-app/assets/60567375/486498d8-1a5b-4fa2-a2de-7922159825b4)
 
 ### Дополнительные комментарии
 > От себя решил добавить SSTI с фильтрацией, все таки это flask. Не добавить в него ssti, было бы неуважительно :)
