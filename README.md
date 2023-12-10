@@ -13,7 +13,7 @@
 
 
 ### Proof of Concept
-SSTI:
+SSTI
 url - http://127.0.0.1:8089/contact
 
 
