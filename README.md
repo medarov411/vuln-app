@@ -42,6 +42,15 @@ Path Traversal:
 
 > ![image](https://github.com/medarov411/vuln-app/assets/60567375/2b8cf974-f629-443f-b30c-5925e08defb1)
 
+<p>&nbsp;</p>
+
+OS Command injection:
+> на сайте реализовано подобие ping сервиса. Url - http://127.0.0.1:8089/ping
+
+>пейлоад: 127.0.0.1;ls
+
+>![image](https://github.com/medarov411/vuln-app/assets/60567375/303665c2-83d6-41ba-8fd2-5706ad0efa01)
+
 
 ### Дополнительные комментарии
 > От себя решил добавить SSTI с фильтрацией, все таки это flask. Не добавить в него ssti, было бы неуважительно :)
