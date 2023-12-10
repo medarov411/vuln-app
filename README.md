@@ -27,9 +27,10 @@ SSTI:
 XSS(reflected):
 > xss эксплуатируется там же, где и ssti - http://127.0.0.1:8089/contact
 
-> http://127.0.0.1:8089/contact?email=%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+> http://127.0.0.1:8089/contact?email=<script>alert(1)</script>
 
-> ![image](https://github.com/medarov411/vuln-app/assets/60567375/41a58915-043e-4e76-aff8-0fd1a6b76bb0)
+> ![image](https://github.com/medarov411/vuln-app/assets/60567375/0b6d6749-0813-4635-aaf4-69384d24f5f8)
+
 
 
 ### Дополнительные комментарии
