@@ -7,6 +7,7 @@
 > - cd app
 > - python __init__.py
 > - flask приложение будет запущено по адресу http://127.0.0.1:8089
+
 ![image](https://github.com/medarov411/vuln-app/assets/60567375/302c807a-5503-411e-a291-bbe552f247ec)
 
 
