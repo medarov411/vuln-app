@@ -24,6 +24,12 @@ SSTI:
 
 > ![image](https://github.com/medarov411/vuln-app/assets/60567375/0635d79b-576c-4515-8675-169c49209763)
 
+XSS(reflected):
+> xss эксплуатируется там же, где и ssti - http://127.0.0.1:8089/contact
+
+> http://127.0.0.1:8089/contact?email=%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+
+> ![image](https://github.com/medarov411/vuln-app/assets/60567375/41a58915-043e-4e76-aff8-0fd1a6b76bb0)
 
 
 ### Дополнительные комментарии
