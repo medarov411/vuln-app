@@ -5,6 +5,7 @@
 
 > - git clone "текущий репозиторий"
 > - cd app
+> - pip install -r requirements.txt
 > - python __init__.py
 > - flask приложение будет запущено по адресу http://127.0.0.1:8089
 
