@@ -14,14 +14,9 @@
 
 ### Proof of Concept
 
-a
-asd
-asd
-asd
-asd
-a
-s
-dsa
+SSTI:
+
+url - http://127.0.0.1:8089/contact
 
 
 ### Дополнительные комментарии
