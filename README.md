@@ -33,6 +33,14 @@ XSS(reflected):
 
 > ![image](https://github.com/medarov411/vuln-app/assets/60567375/0b6d6749-0813-4635-aaf4-69384d24f5f8)
 
+<p>&nbsp;</p>
+
+Path Traversal:
+> кнопка Read Policy на главной странице "http://127.0.0.1:8089/" ведет на url "http://127.0.0.1:8089/view_file?filename=15020.pdf"
+
+> пейлоад:http://127.0.0.1:8089/view_file?filename=../../../../../etc/passwd
+
+> ![image](https://github.com/medarov411/vuln-app/assets/60567375/2b8cf974-f629-443f-b30c-5925e08defb1)
 
 
 ### Дополнительные комментарии
