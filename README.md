@@ -78,4 +78,19 @@ IDOR:
 ### Дополнительные комментарии
 > От себя решил добавить SSTI с фильтрацией, все таки это flask. Не добавить в него ssti, было бы неуважительно :)
 
+<p>&nbsp;</p>
+
+Brute force:
+> Для брута можно использовать burp. Словарь - rockyou.txt
+
+>![image](https://github.com/medarov411/vuln-app/assets/60567375/be06ebe7-1db1-436a-9069-f09a9937d251)
+
+>![image](https://github.com/medarov411/vuln-app/assets/60567375/515c7912-989a-47ef-b6d9-44166251d764)
+
+>Ставим grep match на слово success
+![image](https://github.com/medarov411/vuln-app/assets/60567375/f8965f7f-30d4-42d9-ba5e-b4b79b409d34)
+![image](https://github.com/medarov411/vuln-app/assets/60567375/984ac396-4fa6-48d3-8c47-c81b392be400)
+
+
+
 
